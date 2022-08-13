@@ -1,0 +1,20 @@
+{
+  "name": "trim.js",
+  "version": "1.0.0",
+  "description": "'Trim' any datatype or a short version",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddysilber/cap-it.git"
+  },
+  "author": "Freddy Silber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddysilber/cap-it/issues"
+  },
+  "homepage": "https://github.com/freddysilber/cap-it#readme"
+}
