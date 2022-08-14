@@ -18,4 +18,5 @@ trim(1345) // => '1.3K'
 `npm run build`
 
 # Publish
-`npm run publish`
+`npm version patch`
+`npm publish`
