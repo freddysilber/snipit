@@ -5,7 +5,6 @@ test('String', () => {
 });
 
 test('Number', () => {
-	console.log(trim(1000));
 	expect(trim(1)).toEqual(1);
 	expect(trim(999)).toEqual(999);
 	expect(trim(1000, { abbreviate: true })).toEqual('1K');
