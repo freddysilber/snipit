@@ -1,15 +1,15 @@
-# Snippit
+# Snipit
 
 This library will 'snip' ints and strings to user friendly format
 
-[![GitHub issues](https://img.shields.io/github/issues/freddysilber/snippit)](https://github.com/freddysilber/snippit/issues)
+[![GitHub issues](https://img.shields.io/github/issues/freddysilber/snipit)](https://github.com/freddysilber/snipit/issues)
 ![Tests](https://img.shields.io/badge/Tests-passing-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
 ```javascript
-import snippit from 'snippit';
+import snipit from 'snipit';
 
-snippit(1234, { abbreviate: true }) // => '1.2K'
+snipit(1234, { abbreviate: true }) // => '1.2K'
 ```
 
 | Option | Type | Description |

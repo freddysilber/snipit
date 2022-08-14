@@ -1,5 +1,5 @@
 {
-  "name": "snippit",
+  "name": "snipit",
   "version": "0.0.1",
   "description": "'Snip' any datatype to a short version",
   "author": {
@@ -19,22 +19,22 @@
   },
   "keywords": [
     "snip",
-    "snippit.js",
-    "snippit",
+    "snipit.js",
+    "snipit",
     "abbreviate",
     "round",
     "shorten"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/freddysilber/snippit"
+    "url": "https://github.com/freddysilber/snipit"
   },
   "files": [
     "lib/**/*"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freddysilber/snippit/issues"
+    "url": "https://github.com/freddysilber/snipit/issues"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",

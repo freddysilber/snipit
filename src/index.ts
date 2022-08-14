@@ -6,7 +6,7 @@ import { SnipOptions } from './models/snip-options.model';
  * @param args SnipOptions to customize the output
  * @returns String or number after the input has been 'cleaned'
  */
-export default function snippit(
+export default function snipit(
 	input: string | number,
 	args?: SnipOptions
 ): string | number {
