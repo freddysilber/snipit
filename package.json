@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freddysilber/cap-it/issues"
+    "url": "https://github.com/freddysilber/snippit/issues"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
