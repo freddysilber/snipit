@@ -1,7 +1,13 @@
 {
   "name": "trim.js",
-  "version": "1.0.0",
+  "version": "0.0.7-beta",
   "description": "'Trim' any datatype or a short version",
+  "author": {
+    "email": "freddy.silber@gmail.com",
+    "name": "Freddy Silber",
+    "url": "https://github.com/freddysilber"
+  },
+  "readme": "",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
@@ -9,12 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freddysilber/cap-it.git"
+    "url": "https://github.com/freddysilber/trim.js"
   },
-  "author": "Freddy Silber",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/freddysilber/cap-it/issues"
-  },
-  "homepage": "https://github.com/freddysilber/cap-it#readme"
+  }
 }
