@@ -1,6 +1,6 @@
 {
   "name": "trim.js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "'Trim' any datatype or a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
