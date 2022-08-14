@@ -1,7 +1,7 @@
 {
-  "name": "trim.js",
-  "version": "0.0.15",
-  "description": "'Trim' any datatype or a short version",
+  "name": "snippit",
+  "version": "0.0.1",
+  "description": "'Snip' any datatype to a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
     "name": "Freddy Silber",
@@ -18,15 +18,16 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    "trim",
-    "trim.js",
+    "snip",
+    "snippit.js",
+    "snippit",
     "abbreviate",
     "round",
     "shorten"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/freddysilber/trim.js"
+    "url": "https://github.com/freddysilber/snippit"
   },
   "files": [
     "lib/**/*"

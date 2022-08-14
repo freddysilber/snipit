@@ -1,15 +1,15 @@
-# Trim.js
+# Snippit
 
-This library will 'trim' ints and strings to user friendly format
+This library will 'snip' ints and strings to user friendly format
 
-[![GitHub issues](https://img.shields.io/github/issues/freddysilber/trim.js)](https://github.com/freddysilber/trim.js/issues)
+[![GitHub issues](https://img.shields.io/github/issues/freddysilber/snippit)](https://github.com/freddysilber/snippit/issues)
 ![Tests](https://img.shields.io/badge/Tests-passing-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
 ```javascript
-import trim from 'trim.js';
+import snippit from 'snippit';
 
-trim(1234, { abbreviate: true }) // => '1.2K'
+snippit(1234, { abbreviate: true }) // => '1.2K'
 ```
 
 | Option | Type | Description |

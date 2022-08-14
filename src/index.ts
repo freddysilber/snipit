@@ -1,14 +1,14 @@
-import { TrimOptions } from './models/trim-options.model';
+import { SnipOptions } from './models/snip-options.model';
 
 /**
  * Cleans input using settings to customize the output
  * @param input String or number to 'clean'
- * @param args TrimOptions to customize the output
+ * @param args SnipOptions to customize the output
  * @returns String or number after the input has been 'cleaned'
  */
-export default function trim(
+export default function snippit(
 	input: string | number,
-	args?: TrimOptions
+	args?: SnipOptions
 ): string | number {
 	if (!input) {
 		return input;
