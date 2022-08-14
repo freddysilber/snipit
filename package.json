@@ -1,6 +1,6 @@
 {
   "name": "trim.js",
-  "version": "0.0.9-beta",
+  "version": "0.0.9",
   "description": "'Trim' any datatype or a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prepare": "npm run build",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [
