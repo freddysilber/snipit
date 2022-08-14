@@ -9,7 +9,7 @@ This library will 'trim' ints and strings to user friendly format
 ```javascript
 import trim from 'trim.js';
 
-trim(1345) // => '1.3K'
+trim(1234, { abbreviate: true }) // => '1.2K'
 ```
 
 | Option | Type | Description |
