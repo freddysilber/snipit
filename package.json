@@ -1,24 +1,40 @@
 {
   "name": "trim.js",
-  "version": "0.0.7-beta",
+  "version": "0.0.9-beta",
   "description": "'Trim' any datatype or a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
     "name": "Freddy Silber",
     "url": "https://github.com/freddysilber"
   },
-  "readme": "",
+  "readme": "https://github.com/freddysilber/trim.js/blob/main/README.md",
   "main": "index.js",
-  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
+  "keywords": [
+    "trim",
+    "trim.js",
+    "abbreviate",
+    "round",
+    "shorten"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/freddysilber/trim.js"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/freddysilber/cap-it/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
