@@ -1,18 +1,18 @@
 name: Unit Tests
 
 on:
-	push:
-		branches:
-			- master
-  	pull_request:
-		branches: [master]
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [master]
 
 jobs:
-	Jest:
-		runs-on: unbuntu-latest
-		steps:
-			- uses: actions/checkout@1
-			- name: Run Tests
-				run: |
-					npm install
-					npm test
+  Jest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run Tests
+        run: |
+          npm install 
+          npm test
