@@ -1,5 +1,9 @@
 import { SnipOptions } from './models/snip-options.model';
 
+const issues = 'https://github.com/freddysilber/snipit/issues';
+
+export const errorMessage = `We could not use this data type... Please issue a bug to: ${issues} explaining your problem`;
+
 /**
  * Cleans input using settings to customize the output
  * @param input String or number to 'clean'
@@ -25,7 +29,7 @@ export default function snipit(
 				return input;
 			}
 		default:
-			throw new Error(`[ ${input} ]: This was not found...`);
+			throw new Error(errorMessage);
 	}
 };
 
