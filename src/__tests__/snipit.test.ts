@@ -20,6 +20,12 @@ test('Number', () => {
 
 	expect(snipit(50000)).toEqual('50K');
 
+	// expect(snipit(500000)).toEqual('500K');
+
+	expect(snipit(100001)).toEqual('1M');
+
+	expect(snipit(110000)).toEqual('1.1M');
+
 	// expect(snipit(500000)).toEqual('50K');
 });
 

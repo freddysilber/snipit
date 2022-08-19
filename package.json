@@ -10,7 +10,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config jestconfig.json --verbose false",
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
