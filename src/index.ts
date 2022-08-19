@@ -1,33 +1,20 @@
-import { SnipOptions } from './models/snip-options.model';
-
 const issues = 'https://github.com/freddysilber/snipit/issues';
 
 export const errorMessage = `We could not use this data type... Please issue a bug to: ${issues} explaining your problem`;
 
 /**
- * Cleans input using settings to customize the output
- * @param input String or number to 'clean'
- * @param args SnipOptions to customize the output
- * @returns String or number after the input has been 'cleaned'
+ * Cleans number input: to use the number and decimal to format a string using the parts appended with an accronym
+ * @param input Number to snip
+ * @returns Number after the input has been 'cleaned'
+ * @example 2200 => '2.2K'
  */
 export default function snipit(
-	input: string | number,
-	args?: SnipOptions
+	input: string | number
 ): string | number {
-	if (!input) {
-		return input;
-	}
 
 	switch (typeof input) {
-		case 'string':
-			// Removes whitespace from a string
-			return input.trim();
 		case 'number':
-			if (args?.abbreviate) {
-				return abbreviateNumber(input);
-			} else {
-				return input;
-			}
+			return abbreviateNumber(input);
 		default:
 			throw new Error(errorMessage);
 	}
