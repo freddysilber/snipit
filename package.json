@@ -23,7 +23,14 @@
     "snipit",
     "abbreviate",
     "round",
-    "shorten"
+    "shorten",
+    "number to string",
+    "number acronym",
+    "acronym",
+    "utilities",
+    "short number",
+    "shorten number",
+    "shorten numbers"
   ],
   "repository": {
     "type": "git",
