@@ -1,6 +1,6 @@
 {
   "name": "snipit.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "'Snip' any datatype to a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
@@ -10,7 +10,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config jestconfig.json --verbose false",
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",

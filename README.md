@@ -1,6 +1,6 @@
 # Snipit
 
-This library will 'snip' ints and strings to user friendly format
+This library will 'snip' ints and to user friendly format
 
 [![GitHub issues](https://img.shields.io/github/issues/freddysilber/snipit)](https://github.com/freddysilber/snipit/issues)
 ![Tests](https://img.shields.io/badge/Tests-passing-green)
@@ -9,12 +9,8 @@ This library will 'snip' ints and strings to user friendly format
 ```javascript
 import snipit from 'snipit';
 
-snipit(1234, { abbreviate: true }) // => '1.2K'
+snipit(1234) // => '1.2K'
 ```
-
-| Option | Type | Description |
-| --- | --- | -------- |
-| abbreviate | boolean | Abbreviates a number to string format with the 'counting' appropriate acronym. Ex. `1500 => '1.5K'` |
 
 # Build
 ```bash
