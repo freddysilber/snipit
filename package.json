@@ -16,7 +16,7 @@
     "prepublishOnly": "npm test",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
-    "publish-snipit": "npm version patch && npm run publish"
+    "publish-snipit": "npm version patch && npm publish"
   },
   "keywords": [
     "snip",
