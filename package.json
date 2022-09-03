@@ -1,6 +1,6 @@
 {
   "name": "snipit.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "'Snip' any datatype to a short version",
   "author": {
     "email": "freddy.silber@gmail.com",
